@@ -33,7 +33,7 @@ PRODUCT_COPY_FILES += frameworks/native/data/etc/android.hardware.nfc.hce.xml:sy
 
 PRODUCT_PACKAGES += \
     NfcNci \
-    nfc_nci.pn54x.default
+    nfc_nci.msm8974
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
