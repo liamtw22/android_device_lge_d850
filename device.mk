@@ -17,8 +17,8 @@
 
 # Audio
 PRODUCT_COPY_FILES += \
-    device/lge/g3-common/configs/audio/audio_platform_info_qcwcn.xml:system/etc/audio_platform_info.xml \
-    device/lge/g3-common/configs/audio/mixer_paths_qcwcn.xml:system/etc/mixer_paths.xml
+    device/lge/g3-common/configs/audio/audio_platform_info_qcwcn.xml:system/vendor/etc/audio_platform_info.xml \
+    device/lge/g3-common/configs/audio/mixer_paths_qcwcn.xml:system/vendor/etc/mixer_paths.xml
 
 # FM Radio
 PRODUCT_PACKAGES += \
