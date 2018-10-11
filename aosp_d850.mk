@@ -21,12 +21,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from d850 device
 $(call inherit-product, device/lge/d850/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common PixelExperience stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+TARGET_BOOT_ANIMATION_RES := 1440
+TARGET_GAPPS_ARCH := arm
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_DEVICE := d850
-PRODUCT_NAME := lineage_d850
+PRODUCT_NAME := aosp_d850
 PRODUCT_BRAND := lge
 PRODUCT_MODEL := LG-D850
 PRODUCT_MANUFACTURER := LGE
